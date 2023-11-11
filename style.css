@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: #1F2937;
+  background-color: #1f2937;
   padding-bottom: 40px;
 }
 
@@ -21,14 +21,14 @@ header {
 }
 
 .section-1 .header-logo {
-  color: #F9FAF8;
+  color: #f9faf8;
   font-weight: bold;
   font-size: 24px;
   margin-right: auto;
 }
 
 .section-1 .header-link a {
-  color: #E5E7EB;
+  color: #e5e7eb;
   text-decoration: none;
   font-size: 18px;
 }
@@ -48,20 +48,20 @@ header {
 
 .section-2 h1 {
   font-size: 48px;
-  color: #F9FAF8;
+  color: #f9faf8;
   font-weight: 800;
 }
 
 .section-2 p {
   font-size: 18px;
-  color:#E5E7EB;
+  color: #e5e7eb;
   margin-top: 8px;
   margin-bottom: 15px;
 }
 
 .section-2 button {
-  background-color: #3882F6;
-  color: #F9FAF8;
+  background-color: #3882f6;
+  color: #f9faf8;
   border: none;
   border-radius: 8px;
   padding-left: 36px;
@@ -74,8 +74,8 @@ header {
 }
 
 .section-2 button:hover {
-  background-color: #F9FAF8;
-  color: #3882F6;
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 .section-2 .hero-text {
@@ -91,4 +91,68 @@ header {
 .section-2 .hero-image img {
   height: 100%;
   width: 100%;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-3 h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-3 .image-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+
+.section-3 .image-wrapper .image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 2 20%;
+}
+
+.section-3 .image-wrapper .image-box .image {
+  border: 4px solid #3882f6;
+  background-position: center;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.section-3 .image-wrapper .image-box p {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.section-3 .image-wrapper .image-box .first {
+  background-image: url(/images/coding2.jpg);
+}
+
+.section-3 .image-wrapper .image-box .second {
+  background-image: url(/images/coding3.jpg);
+}
+
+.section-3 .image-wrapper .image-box .third {
+  background-image: url(/images/coding4.jpg);
+}
+
+.section-3 .image-wrapper .image-box .fourth {
+  background-image: url(/images/coding5.jpg);
 }
