@@ -144,19 +144,19 @@ header {
 }
 
 .section-3 .image-wrapper .image-box .first {
-  background-image: url(/images/coding2.jpg);
+  background-image: url(./images/coding2.jpg);
 }
 
 .section-3 .image-wrapper .image-box .second {
-  background-image: url(/images/coding3.jpg);
+  background-image: url(./images/coding3.jpg);
 }
 
 .section-3 .image-wrapper .image-box .third {
-  background-image: url(/images/coding4.jpg);
+  background-image: url(./images/coding4.jpg);
 }
 
 .section-3 .image-wrapper .image-box .fourth {
-  background-image: url(/images/coding5.jpg);
+  background-image: url(./images/coding5.jpg);
 }
 
 .section-4 {
