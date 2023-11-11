@@ -98,6 +98,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .section-3 h1 {
@@ -122,6 +123,7 @@ header {
   justify-content: center;
   align-items: center;
   flex: 1 2 20%;
+  margin: 10px;
 }
 
 .section-3 .image-wrapper .image-box .image {
